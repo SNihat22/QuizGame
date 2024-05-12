@@ -1,0 +1,40 @@
+@if (!!quiz) {
+  <div class="container mt-5">
+    <button class="btn btn-sm btn-primary" (click)="goBack()">Back</button>
+    <h2 class="mb-4">{{ quiz.title }}</h2>
+    <form id="quizForm">
+      @if(question) {
+
+        <div class="form-group">
+          <h4>
+            {{questionCount + 1}}/{{quiz.questions.length}}&nbsp;&nbsp;&nbsp;{{question.question}}
+          </h4>
+
+          <ul class="list-group" [formGroup]="questionForm" >
+
+            @for (option of question.options; track option) {
+              <li class="list-group-item d-flex align-items-center">
+                <div class="form-check">
+                  <input [formControl]="questionControl" [value]="option" class="form-check-input" type="radio" [id]="option">
+                  <label class="form-check-label" [for]="option">
+                    {{ option }}
+                  </label>
+                </div>
+              </li>
+            }
+          </ul>
+        </div>
+        <button [disabled]="questionControl.invalid" (click)="onSubmit()" type="button" class="btn btn-primary mt-5">Submit</button>
+
+      } @else if (questionCount >= quiz.questions.length) {
+        <div class="alert alert-success">
+          <div class="mb-2">Quiz is complete</div>
+          You got <strong>{{ correctAnswers }}</strong> answer(s) right out of <strong>{{ quiz.questions.length }}</strong> question(s)
+        </div>
+        <button routerLink="../" type="button" class="btn btn-primary mt-5">Go Back</button>
+
+      }
+
+    </form>
+  </div>
+}

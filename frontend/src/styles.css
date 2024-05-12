@@ -1,0 +1,17 @@
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+
+@import '../node_modules/ngx-toastr/toastr.css';
+
+
+/*// if you'd like to use it without importing all of bootstrap it requires*/
+/*@import '../node_modules/bootstrap/scss/functions';*/
+/*@import '../node_modules/bootstrap/scss/variables';*/
+/*@import '../node_modules/bootstrap/scss/mixins';*/
+/*// bootstrap 4*/
+/*@import '../node_modules/ngx-toastr/toastr-bs4-alert';*/
+/*// boostrap 5*/
+
+body {
+  height: 100vh;
+}

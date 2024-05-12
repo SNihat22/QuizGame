@@ -1,0 +1,282 @@
+[
+  {
+    "title": "Science Quiz",
+    "description": "Consists of 15 questions exploring the wonders of the natural world and scientific phenomena.",
+    "questions": [
+      {
+        "question": "What is the chemical symbol for water?",
+        "options": ["H2O", "CO2", "NaCl"],
+        "answer": "H2O"
+      },
+      {
+        "question": "What planet is known as the Red Planet?",
+        "options": ["Mars", "Jupiter", "Venus"],
+        "answer": "Mars"
+      },
+      {
+        "question": "What is the speed of light?",
+        "options": ["299,792,458 m/s", "150,000 km/s", "100,000 km/s"],
+        "answer": "299,792,458 m/s"
+      },
+      {
+        "question": "What is the hardest natural substance on Earth?",
+        "options": ["Diamond", "Gold", "Iron"],
+        "answer": "Diamond"
+      },
+      {
+        "question": "What is the most abundant gas in Earth's atmosphere?",
+        "options": ["Nitrogen", "Oxygen", "Carbon Dioxide"],
+        "answer": "Nitrogen"
+      },
+      {
+        "question": "What planet is closest to the sun?",
+        "options": ["Mercury", "Venus", "Earth"],
+        "answer": "Mercury"
+      },
+      {
+        "question": "What is the powerhouse of the cell?",
+        "options": ["Mitochondria", "Nucleus", "Ribosome"],
+        "answer": "Mitochondria"
+      },
+      {
+        "question": "What is the boiling point of water at sea level?",
+        "options": ["100°C", "212°F", "Both"],
+        "answer": "Both"
+      },
+      {
+        "question": "What is the largest planet in our solar system?",
+        "options": ["Jupiter", "Saturn", "Neptune"],
+        "answer": "Jupiter"
+      },
+      {
+        "question": "What gas do plants absorb from the atmosphere?",
+        "options": ["Carbon Dioxide", "Oxygen", "Nitrogen"],
+        "answer": "Carbon Dioxide"
+      }
+    ]
+  },
+  {
+    "title": "Geography Quiz",
+    "description": "Consists of 14 questions testing your knowledge of world geography, countries, and capitals.",
+    "questions": [
+      {
+        "question": "What is the capital of France?",
+        "options": ["Paris", "Berlin", "Madrid"],
+        "answer": "Paris"
+      },
+      {
+        "question": "Which is the largest continent?",
+        "options": ["Asia", "Africa", "Europe"],
+        "answer": "Asia"
+      },
+      {
+        "question": "What is the longest river in the world?",
+        "options": ["Nile", "Amazon", "Yangtze"],
+        "answer": "Nile"
+      },
+      {
+        "question": "Which country has the most population?",
+        "options": ["China", "India", "USA"],
+        "answer": "China"
+      },
+      {
+        "question": "What is the smallest country in the world?",
+        "options": ["Vatican City", "Monaco", "San Marino"],
+        "answer": "Vatican City"
+      },
+      {
+        "question": "Which desert is the largest in the world?",
+        "options": ["Sahara", "Gobi", "Kalahari"],
+        "answer": "Sahara"
+      },
+      {
+        "question": "Which ocean is the largest?",
+        "options": ["Pacific Ocean", "Atlantic Ocean", "Indian Ocean"],
+        "answer": "Pacific Ocean"
+      },
+      {
+        "question": "What is the capital city of Japan?",
+        "options": ["Tokyo", "Osaka", "Kyoto"],
+        "answer": "Tokyo"
+      },
+      {
+        "question": "Which country is known as the Land of the Rising Sun?",
+        "options": ["Japan", "China", "South Korea"],
+        "answer": "Japan"
+      },
+      {
+        "question": "Which mountain is the highest in the world?",
+        "options": ["Mount Everest", "K2", "Kangchenjunga"],
+        "answer": "Mount Everest"
+      }
+    ]
+  },
+  {
+    "title": "Films Quiz",
+    "description": "Consists of 8 questions about popular films and television series.",
+    "questions": [
+      {
+        "question": "Who directed the movie 'Inception'?",
+        "options": ["Christopher Nolan", "Steven Spielberg", "James Cameron"],
+        "answer": "Christopher Nolan"
+      },
+      {
+        "question": "Which film won the Academy Award for Best Picture in 1994?",
+        "options": ["Forrest Gump", "Pulp Fiction", "The Shawshank Redemption"],
+        "answer": "Forrest Gump"
+      },
+      {
+        "question": "Who played the character of Jack in 'Titanic'?",
+        "options": ["Leonardo DiCaprio", "Brad Pitt", "Tom Hanks"],
+        "answer": "Leonardo DiCaprio"
+      },
+      {
+        "question": "What is the highest-grossing film of all time?",
+        "options": ["Avatar", "Avengers: Endgame", "Titanic"],
+        "answer": "Avatar"
+      },
+      {
+        "question": "Which film features the character 'Gollum'?",
+        "options": ["The Lord of the Rings", "Harry Potter", "Star Wars"],
+        "answer": "The Lord of the Rings"
+      },
+      {
+        "question": "Who directed the movie 'Pulp Fiction'?",
+        "options": ["Quentin Tarantino", "Martin Scorsese", "Francis Ford Coppola"],
+        "answer": "Quentin Tarantino"
+      },
+      {
+        "question": "In which film does the character 'Travis Bickle' appear?",
+        "options": ["Taxi Driver", "Goodfellas", "The Godfather"],
+        "answer": "Taxi Driver"
+      },
+      {
+        "question": "Which film features the quote 'I'll be back'?",
+        "options": ["The Terminator", "Die Hard", "RoboCop"],
+        "answer": "The Terminator"
+      },
+      {
+        "question": "Who played the character of 'Indiana Jones'?",
+        "options": ["Harrison Ford", "Tom Cruise", "Mel Gibson"],
+        "answer": "Harrison Ford"
+      },
+      {
+        "question": "Which film is set in the fictional African country of Wakanda?",
+        "options": ["Black Panther", "Coming to America", "The Lion King"],
+        "answer": "Black Panther"
+      }
+    ]
+  },
+  {
+    "title": "Music Quiz",
+    "description": "Consists of 10 questions about different genres, artists, and iconic songs.",
+    "questions": [
+      {
+        "question": "Who is known as the 'King of Pop'?",
+        "options": ["Michael Jackson", "Elvis Presley", "Prince"],
+        "answer": "Michael Jackson"
+      },
+      {
+        "question": "What band is known for the album 'Abbey Road'?",
+        "options": ["The Beatles", "The Rolling Stones", "Pink Floyd"],
+        "answer": "The Beatles"
+      },
+      {
+        "question": "Who is the lead singer of the band 'Queen'?",
+        "options": ["Freddie Mercury", "David Bowie", "Mick Jagger"],
+        "answer": "Freddie Mercury"
+      },
+      {
+        "question": "Which artist is known for the song 'Purple Rain'?",
+        "options": ["Prince", "Madonna", "Whitney Houston"],
+        "answer": "Prince"
+      },
+      {
+        "question": "What is the best-selling album of all time?",
+        "options": ["Thriller", "Back in Black", "The Dark Side of the Moon"],
+        "answer": "Thriller"
+      },
+      {
+        "question": "Which band is known for the song 'Bohemian Rhapsody'?",
+        "options": ["Queen", "Led Zeppelin", "The Who"],
+        "answer": "Queen"
+      },
+      {
+        "question": "Who is the singer of the song 'Like a Rolling Stone'?",
+        "options": ["Bob Dylan", "Bruce Springsteen", "Neil Young"],
+        "answer": "Bob Dylan"
+      },
+      {
+        "question": "Which artist is known as the 'Material Girl'?",
+        "options": ["Madonna", "Cyndi Lauper", "Janet Jackson"],
+        "answer": "Madonna"
+      },
+      {
+        "question": "What band is known for the song 'Stairway to Heaven'?",
+        "options": ["Led Zeppelin", "The Eagles", "Fleetwood Mac"],
+        "answer": "Led Zeppelin"
+      },
+      {
+        "question": "Who is the lead singer of the band 'U2'?",
+        "options": ["Bono", "Sting", "Bon"],
+        "answer": "Bono"
+      }
+    ]
+  },
+  {
+    "title": "History Quiz",
+    "description": "Consists of 12 questions covering significant historical events and figures.",
+    "questions": [
+      {
+        "question": "Who was the first president of the United States?",
+        "options": ["George Washington", "Thomas Jefferson", "John Adams"],
+        "answer": "George Washington"
+      },
+      {
+        "question": "In which year did World War II end?",
+        "options": ["1945", "1939", "1941"],
+        "answer": "1945"
+      },
+      {
+        "question": "Who was known as the Iron Lady?",
+        "options": ["Margaret Thatcher", "Angela Merkel", "Indira Gandhi"],
+        "answer": "Margaret Thatcher"
+      },
+      {
+        "question": "Which empire was ruled by Julius Caesar?",
+        "options": ["Roman Empire", "Ottoman Empire", "Mongol Empire"],
+        "answer": "Roman Empire"
+      },
+      {
+        "question": "Who was the leader of the Soviet Union during World War II?",
+        "options": ["Joseph Stalin", "Vladimir Lenin", "Nikita Khrushchev"],
+        "answer": "Joseph Stalin"
+      },
+      {
+        "question": "Which year did the Berlin Wall fall?",
+        "options": ["1989", "1991", "1987"],
+        "answer": "1989"
+      },
+      {
+        "question": "Who was the British Prime Minister during World War II?",
+        "options": ["Winston Churchill", "Neville Chamberlain", "Clement Attlee"],
+        "answer": "Winston Churchill"
+      },
+      {
+        "question": "What year did the American Civil War start?",
+        "options": ["1861", "1857", "1865"],
+        "answer": "1861"
+      },
+      {
+        "question": "Who discovered America?",
+        "options": ["Christopher Columbus", "Vasco da Gama", "Marco Polo"],
+        "answer": "Christopher Columbus"
+      },
+      {
+        "question": "Who was the first woman to fly solo across the Atlantic Ocean?",
+        "options": ["Amelia Earhart", "Harriet Quimby", "Bessie Coleman"],
+        "answer": "Amelia Earhart"
+      }
+    ]
+  }
+]

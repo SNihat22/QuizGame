@@ -1,0 +1,12 @@
+{
+  "/api": {
+    "target":  {
+      "host": "localhost",
+      "protocol": "http:",
+      "port": 6000
+    },
+    "secure": false,
+    "changeOrigin": true,
+    "logLevel": "info"
+  }
+}

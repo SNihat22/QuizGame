@@ -1,0 +1,12 @@
+<nav class="navbar navbar-expand-lg bg-primary text-light">
+  <div class="container-fluid">
+    <a class="navbar-brand text-light">Welcome to the Quiz game <span class="badge text-bg-secondary">admin</span></a>
+    <div class="ms-auto">
+      <button class="ms-auto btn btn-light me-1" type="submit" routerLink="./leaderboards">Leaderboards</button>
+      <button class="ms-auto btn btn-light" type="submit" (click)="logout()">Logout</button>
+    </div>
+  </div>
+</nav>
+<div class="container mt-5">
+  <router-outlet></router-outlet>
+</div>

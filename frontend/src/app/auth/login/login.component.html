@@ -1,0 +1,17 @@
+<form #form='ngForm' class="form-signin text-center mt-5">
+  <img class="mb-4" src="/assets/quiz.png" alt="" width="72" height="72">
+  <h1 class="h3 mb-3 font-weight-normal">Please sign in</h1>
+  <div class="text-start">
+    <label for="inputEmail" class="sr-only">Email address</label>
+    <input #email='ngModel' type="email" [(ngModel)]="username"
+           pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+\.[a-zA-Z]{1,}$"
+           name="username" [required]="true" [email]="true" id="inputEmail" class="form-control">
+    <label [class.invisible]="!(email.touched && email.invalid)" class="small d-block block text-danger">Invalid email</label>
+    <label for="inputPassword" class="sr-only">Password</label>
+    <input type="password" [(ngModel)]="password" name="password" id="inputPassword" class="form-control" required="">
+    <div class="mb-3 d-flex justify-content-end">
+      <button class="btn btn-link btn-sm" style="cursor: pointer" routerLink="../register">Not registered yet?</button>
+    </div>
+  </div>
+  <button [disabled]="form.invalid" class="btn btn-lg btn-primary btn-block" type="submit" (click)="onSignIn()">Sign in</button>
+</form>

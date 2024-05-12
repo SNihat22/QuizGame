@@ -1,0 +1,28 @@
+<button class="btn btn-primary mb-5" routerLink="../">Back</button>
+
+
+<table class="table table-striped">
+  <thead>
+  <tr>
+    <th scope="col">#</th>
+    <th scope="col">Username</th>
+    <th scope="col">GamesPlayed</th>
+    <th scope="col">TotalScores</th>
+    <th scope="col">Average Score</th>
+  </tr>
+  </thead>
+  <tbody>
+
+  @for(result of leaderBoardResults; let i = $index; track result) {
+
+    <tr>
+      <th scope="row">{{ i + 1 }}</th>
+      <td>{{ result.username}} <span *ngIf="i === 0" class="badge text-white bg-success small">Winner</span></td>
+      <td>{{ result.gamesPlayed}}</td>
+      <td>{{ result.totalScores}}</td>
+      <td>{{ isNaN((result.totalScores / result.gamesPlayed)) ? 0 : (result.totalScores / result.gamesPlayed)}}</td>
+    </tr>
+  }
+
+  </tbody>
+</table>
