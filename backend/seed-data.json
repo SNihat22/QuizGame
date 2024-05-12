@@ -137,8 +137,8 @@
       },
       {
         "question": "Which film features the character 'Gollum'?",
-        "options": ["The Lord of the Rings", "Harry Potter", "Star Wars"],
-        "answer": "The Lord of the Rings"
+        "options": ["Sherlock Holmes", "Vash", "Star Wars"],
+        "answer": "Sherlock Holmes"
       },
       {
         "question": "Who directed the movie 'Pulp Fiction'?",
